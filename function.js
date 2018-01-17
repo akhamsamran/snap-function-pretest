@@ -19,8 +19,9 @@ console.log('1- '+myString);
 //2) sums an array WITHOUT the use of system functions such as array_sum()
 const numbers =[1,2,3,4,5,6,7,8,9];
 //this doesn't work:
-const add = (a,b,c,d,e,f,g,h,i) =>
-	a+b+c+d+e+f+g+h+i;
+//const add = (a,b,c,d,e,f,g,h,i) =>
+//	a+b+c+d+e+f+g+h+i;
+
 //this works, but I don't know if using "sum" is allowed:
 var numbers =[1,2,3,4,5,6,7,8,9];
 var sum = 0;
@@ -34,8 +35,8 @@ console.log(sum);
 
 //3) rewrite str_repeat(): repeat the string (first input) the number of times specified (second input)
 var stringInput = 'hello, I am a string';
-var repeatTimes = 3;
-str.repeat(count);
+console.log(stringInput.repeat(3));
 
 
 //4) find the dot product of two given arrays
+//multiply the corresponding numbers in the arrays, and add all the results together
