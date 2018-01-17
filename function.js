@@ -33,6 +33,8 @@ console.log(sum);
 
 
 //3) rewrite str_repeat(): repeat the string (first input) the number of times specified (second input)
+var stringInput = 'hello, I am a string';
+var repeatTimes = 3;
 
 
 
